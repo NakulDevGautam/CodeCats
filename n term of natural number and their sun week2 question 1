@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int i,sum;
+	printf("first 7 natural namber:");
+	for(i=1;i<=7;i++)
+	{
+		printf("%d",i);
+		sum+=i;
+		
+	}
+	printf("\n the sum of 7 natural number  terms:%d\n",sum);
+	return 0;
+}
